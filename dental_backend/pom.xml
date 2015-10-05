@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dgac</groupId>
+  <artifactId>dental_backend</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>dental_backend</name>
+  <modules>
+    <module>dental_backend-ear</module>
+    <module>dental_backend_service_soap_provider-web</module>
+    <module>dental_backend_business_logic-ejb</module>
+    <module>dental_backend_business_client-ejb</module>
+    <module>dental_backend_data-ejb</module>
+  </modules>
+</project>
